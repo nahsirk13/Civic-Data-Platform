@@ -12,7 +12,7 @@ A full-stack web application for exploring elected representatives — city, sta
 - Legislative activity tracking — bills sponsored, cosponsored, or authored by each representative per issue
 
 ## Tech Stack
-- **Backend:** FastAPI, SQLAlchemy, PostgreSQL
+- **Backend:** FastAPI, Pydantic, SQLAlchemy, PostgreSQL
 - **Frontend:** React
 - **Auth:** JWT (JSON Web Tokens)
 
@@ -28,3 +28,50 @@ This project was built to get hands-on experience with:
 - Building a RESTful API with clean separation between models, schemas, and routes
 - Implementing authentication from scratch
 - Working with real government and legislative data
+
+## Database Schema
+
+```mermaid
+erDiagram
+  REPRESENTATIVES ||--o{ REPRESENTATIVE_ISSUES : has
+  ISSUES ||--o{ REPRESENTATIVE_ISSUES : has
+  USERS ||--o{ USER_ISSUES : has
+  ISSUES ||--o{ USER_ISSUES : has
+  REPRESENTATIVES {
+    int id PK
+    string name
+    string level
+    string chamber
+    string office
+    string district
+    string state
+  }
+  ISSUES {
+    int id PK
+    string name
+    string description
+  }
+  REPRESENTATIVE_ISSUES {
+    int id PK
+    int representative_id FK
+    int issue_id FK
+    int stance_score
+    string ai_summary
+    int sponsored_count
+    int authored_count
+  }
+  USERS {
+    int id PK
+    string email
+    string first_name
+    string last_name
+    date dob
+    string password_hash
+    string zipcode
+  }
+  USER_ISSUES {
+    int id PK
+    int user_id FK
+    int issue_id FK
+  }
+```
