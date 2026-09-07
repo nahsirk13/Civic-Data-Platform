@@ -9,7 +9,7 @@ from fastapi import APIRouter, Depends, HTTPException
 from sqlalchemy.orm import Session
 from database import SessionLocal
 from models.representative import Representative
-from schemas.representative import RepresentativeOut
+from schemas.representative import RepresentativeOut, RepresentativeCreate
 
 router = APIRouter()
 
@@ -33,7 +33,7 @@ def get_representatives(state: str | None = None, db: Session = Depends(get_db))
     Example: GET /representatives?state=NY
     """
     query = db.query(Representative)
-    if state:
+    if state is not None:
         query = query.filter(Representative.state == state.upper())
     return query.all()
 
@@ -47,3 +47,22 @@ def get_representative(rep_id: int, db: Session = Depends(get_db)):
     if not rep:
         raise HTTPException(status_code=404, detail="Representative not found")
     return rep
+
+
+@router.post("/representatives/", response_model=RepresentativeCreate, status_code=201)
+def create_representative(rep_data: RepresentativeOut, db: Session = Depends(get_db)):
+    """
+    Create a new representative. Returns new representative.
+    """
+    new_rep = Representative(
+        name=rep_data.name,
+        level=rep_data.level,
+        chamber=rep_data.chamber,
+        office=rep_data.office,
+        district=rep_data.district,
+        state=rep_data.state
+    )
+    db.add(new_rep)
+    db.commit()
+    db.refresh(new_rep)
+    return new_rep
