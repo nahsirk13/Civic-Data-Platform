@@ -1,0 +1,605 @@
+[
+  {
+    "id": 101,
+    "name": "Donald Trump",
+    "level": "federal",
+    "chamber": null,
+    "office": "President of the United States",
+    "district": null,
+    "state": null
+  },
+  {
+    "id": 102,
+    "name": "JD Vance",
+    "level": "federal",
+    "chamber": null,
+    "office": "Vice President of the United States",
+    "district": null,
+    "state": null
+  },
+  {
+    "id": 103,
+    "name": "Marco Rubio",
+    "level": "federal",
+    "chamber": null,
+    "office": "US Secretary of State",
+    "district": null,
+    "state": null
+  },
+  {
+    "id": 104,
+    "name": "Todd Blanche",
+    "level": "federal",
+    "chamber": null,
+    "office": "US Attorney General",
+    "district": null,
+    "state": null
+  },
+  {
+    "id": 105,
+    "name": "Scott Bessent",
+    "level": "federal",
+    "chamber": null,
+    "office": "US Secretary of the Treasury",
+    "district": null,
+    "state": null
+  },
+  {
+    "id": 106,
+    "name": "Pete Hegseth",
+    "level": "federal",
+    "chamber": null,
+    "office": "US Secretary of Defense",
+    "district": null,
+    "state": null
+  },
+  {
+    "id": 107,
+    "name": "Kathy Hochul",
+    "level": "state",
+    "chamber": null,
+    "office": "Governor of New York",
+    "district": null,
+    "state": "NY"
+  },
+  {
+    "id": 108,
+    "name": "Antonio Delgado",
+    "level": "state",
+    "chamber": null,
+    "office": "Lieutenant Governor of New York",
+    "district": null,
+    "state": "NY"
+  },
+  {
+    "id": 109,
+    "name": "Letitia James",
+    "level": "state",
+    "chamber": null,
+    "office": "New York Attorney General",
+    "district": null,
+    "state": "NY"
+  },
+  {
+    "id": 110,
+    "name": "Thomas DiNapoli",
+    "level": "state",
+    "chamber": null,
+    "office": "New York State Comptroller",
+    "district": null,
+    "state": "NY"
+  },
+  {
+    "id": 111,
+    "name": "John Roberts",
+    "level": "federal",
+    "chamber": null,
+    "office": "Chief Justice of the United States",
+    "district": null,
+    "state": null
+  },
+  {
+    "id": 112,
+    "name": "Clarence Thomas",
+    "level": "federal",
+    "chamber": null,
+    "office": "Associate Justice, US Supreme Court",
+    "district": null,
+    "state": null
+  },
+  {
+    "id": 113,
+    "name": "Samuel Alito",
+    "level": "federal",
+    "chamber": null,
+    "office": "Associate Justice, US Supreme Court",
+    "district": null,
+    "state": null
+  },
+  {
+    "id": 114,
+    "name": "Sonia Sotomayor",
+    "level": "federal",
+    "chamber": null,
+    "office": "Associate Justice, US Supreme Court",
+    "district": null,
+    "state": null
+  },
+  {
+    "id": 115,
+    "name": "Elena Kagan",
+    "level": "federal",
+    "chamber": null,
+    "office": "Associate Justice, US Supreme Court",
+    "district": null,
+    "state": null
+  },
+  {
+    "id": 116,
+    "name": "Neil Gorsuch",
+    "level": "federal",
+    "chamber": null,
+    "office": "Associate Justice, US Supreme Court",
+    "district": null,
+    "state": null
+  },
+  {
+    "id": 117,
+    "name": "Brett Kavanaugh",
+    "level": "federal",
+    "chamber": null,
+    "office": "Associate Justice, US Supreme Court",
+    "district": null,
+    "state": null
+  },
+  {
+    "id": 118,
+    "name": "Amy Coney Barrett",
+    "level": "federal",
+    "chamber": null,
+    "office": "Associate Justice, US Supreme Court",
+    "district": null,
+    "state": null
+  },
+  {
+    "id": 119,
+    "name": "Ketanji Brown Jackson",
+    "level": "federal",
+    "chamber": null,
+    "office": "Associate Justice, US Supreme Court",
+    "district": null,
+    "state": null
+  },
+  {
+    "id": 120,
+    "name": "Toby Ann Stavisky",
+    "level": "state",
+    "chamber": "Senate",
+    "office": "NY State Senate",
+    "district": "12",
+    "state": "NY"
+  },
+  {
+    "id": 121,
+    "name": "Michael Gianaris",
+    "level": "state",
+    "chamber": "Senate",
+    "office": "NY State Senate",
+    "district": "13",
+    "state": "NY"
+  },
+  {
+    "id": 122,
+    "name": "Jessica Ramos",
+    "level": "state",
+    "chamber": "Senate",
+    "office": "NY State Senate",
+    "district": "14",
+    "state": "NY"
+  },
+  {
+    "id": 123,
+    "name": "Leroy Comrie",
+    "level": "state",
+    "chamber": "Senate",
+    "office": "NY State Senate",
+    "district": "15",
+    "state": "NY"
+  },
+  {
+    "id": 124,
+    "name": "Joseph Addabbo",
+    "level": "state",
+    "chamber": "Senate",
+    "office": "NY State Senate",
+    "district": "16",
+    "state": "NY"
+  },
+  {
+    "id": 125,
+    "name": "John Liu",
+    "level": "state",
+    "chamber": "Senate",
+    "office": "NY State Senate",
+    "district": "17",
+    "state": "NY"
+  },
+  {
+    "id": 126,
+    "name": "Julia Salazar",
+    "level": "state",
+    "chamber": "Senate",
+    "office": "NY State Senate",
+    "district": "19",
+    "state": "NY"
+  },
+  {
+    "id": 127,
+    "name": "Roxanne Persaud",
+    "level": "state",
+    "chamber": "Senate",
+    "office": "NY State Senate",
+    "district": "20",
+    "state": "NY"
+  },
+  {
+    "id": 128,
+    "name": "Zellnor Myrie",
+    "level": "state",
+    "chamber": "Senate",
+    "office": "NY State Senate",
+    "district": "21",
+    "state": "NY"
+  },
+  {
+    "id": 129,
+    "name": "Kevin Parker",
+    "level": "state",
+    "chamber": "Senate",
+    "office": "NY State Senate",
+    "district": "22",
+    "state": "NY"
+  },
+  {
+    "id": 130,
+    "name": "Andrew Gounardes",
+    "level": "state",
+    "chamber": "Senate",
+    "office": "NY State Senate",
+    "district": "27",
+    "state": "NY"
+  },
+  {
+    "id": 131,
+    "name": "Liz Krueger",
+    "level": "state",
+    "chamber": "Senate",
+    "office": "NY State Senate",
+    "district": "29",
+    "state": "NY"
+  },
+  {
+    "id": 132,
+    "name": "Jose Serrano",
+    "level": "state",
+    "chamber": "Senate",
+    "office": "NY State Senate",
+    "district": "30",
+    "state": "NY"
+  },
+  {
+    "id": 133,
+    "name": "Robert Jackson",
+    "level": "state",
+    "chamber": "Senate",
+    "office": "NY State Senate",
+    "district": "32",
+    "state": "NY"
+  },
+  {
+    "id": 134,
+    "name": "Luis Sepulveda",
+    "level": "state",
+    "chamber": "Senate",
+    "office": "NY State Senate",
+    "district": "33",
+    "state": "NY"
+  },
+  {
+    "id": 135,
+    "name": "Andrea Stewart-Cousins",
+    "level": "state",
+    "chamber": "Senate",
+    "office": "NY State Senate",
+    "district": "36",
+    "state": "NY"
+  },
+  {
+    "id": 136,
+    "name": "Jamaal Bailey",
+    "level": "state",
+    "chamber": "Senate",
+    "office": "NY State Senate",
+    "district": "37",
+    "state": "NY"
+  },
+  {
+    "id": 137,
+    "name": "Rob Ortt",
+    "level": "state",
+    "chamber": "Senate",
+    "office": "NY State Senate",
+    "district": "62",
+    "state": "NY"
+  },
+  {
+    "id": 138,
+    "name": "Carl Heastie",
+    "level": "state",
+    "chamber": "Assembly",
+    "office": "NY State Assembly",
+    "district": "83",
+    "state": "NY"
+  },
+  {
+    "id": 139,
+    "name": "Crystal Peoples-Stokes",
+    "level": "state",
+    "chamber": "Assembly",
+    "office": "NY State Assembly",
+    "district": "141",
+    "state": "NY"
+  },
+  {
+    "id": 140,
+    "name": "Ed Ra",
+    "level": "state",
+    "chamber": "Assembly",
+    "office": "NY State Assembly",
+    "district": "19",
+    "state": "NY"
+  },
+  {
+    "id": 141,
+    "name": "Steven Raga",
+    "level": "state",
+    "chamber": "Assembly",
+    "office": "NY State Assembly",
+    "district": "30",
+    "state": "NY"
+  },
+  {
+    "id": 142,
+    "name": "Nick LaLota",
+    "level": "federal",
+    "chamber": "House",
+    "office": "US House of Representatives",
+    "district": "1",
+    "state": "NY"
+  },
+  {
+    "id": 143,
+    "name": "Andrew Garbarino",
+    "level": "federal",
+    "chamber": "House",
+    "office": "US House of Representatives",
+    "district": "2",
+    "state": "NY"
+  },
+  {
+    "id": 144,
+    "name": "Tom Suozzi",
+    "level": "federal",
+    "chamber": "House",
+    "office": "US House of Representatives",
+    "district": "3",
+    "state": "NY"
+  },
+  {
+    "id": 145,
+    "name": "Laura Gillen",
+    "level": "federal",
+    "chamber": "House",
+    "office": "US House of Representatives",
+    "district": "4",
+    "state": "NY"
+  },
+  {
+    "id": 146,
+    "name": "Gregory Meeks",
+    "level": "federal",
+    "chamber": "House",
+    "office": "US House of Representatives",
+    "district": "5",
+    "state": "NY"
+  },
+  {
+    "id": 147,
+    "name": "Grace Meng",
+    "level": "federal",
+    "chamber": "House",
+    "office": "US House of Representatives",
+    "district": "6",
+    "state": "NY"
+  },
+  {
+    "id": 148,
+    "name": "Nydia Velazquez",
+    "level": "federal",
+    "chamber": "House",
+    "office": "US House of Representatives",
+    "district": "7",
+    "state": "NY"
+  },
+  {
+    "id": 149,
+    "name": "Hakeem Jeffries",
+    "level": "federal",
+    "chamber": "House",
+    "office": "US House of Representatives",
+    "district": "8",
+    "state": "NY"
+  },
+  {
+    "id": 150,
+    "name": "Yvette Clarke",
+    "level": "federal",
+    "chamber": "House",
+    "office": "US House of Representatives",
+    "district": "9",
+    "state": "NY"
+  },
+  {
+    "id": 151,
+    "name": "Dan Goldman",
+    "level": "federal",
+    "chamber": "House",
+    "office": "US House of Representatives",
+    "district": "10",
+    "state": "NY"
+  },
+  {
+    "id": 152,
+    "name": "Nicole Malliotakis",
+    "level": "federal",
+    "chamber": "House",
+    "office": "US House of Representatives",
+    "district": "11",
+    "state": "NY"
+  },
+  {
+    "id": 153,
+    "name": "Jerry Nadler",
+    "level": "federal",
+    "chamber": "House",
+    "office": "US House of Representatives",
+    "district": "12",
+    "state": "NY"
+  },
+  {
+    "id": 154,
+    "name": "Adriano Espaillat",
+    "level": "federal",
+    "chamber": "House",
+    "office": "US House of Representatives",
+    "district": "13",
+    "state": "NY"
+  },
+  {
+    "id": 155,
+    "name": "Alexandria Ocasio-Cortez",
+    "level": "federal",
+    "chamber": "House",
+    "office": "US House of Representatives",
+    "district": "14",
+    "state": "NY"
+  },
+  {
+    "id": 156,
+    "name": "Ritchie Torres",
+    "level": "federal",
+    "chamber": "House",
+    "office": "US House of Representatives",
+    "district": "15",
+    "state": "NY"
+  },
+  {
+    "id": 157,
+    "name": "George Latimer",
+    "level": "federal",
+    "chamber": "House",
+    "office": "US House of Representatives",
+    "district": "16",
+    "state": "NY"
+  },
+  {
+    "id": 158,
+    "name": "Mike Lawler",
+    "level": "federal",
+    "chamber": "House",
+    "office": "US House of Representatives",
+    "district": "17",
+    "state": "NY"
+  },
+  {
+    "id": 159,
+    "name": "Pat Ryan",
+    "level": "federal",
+    "chamber": "House",
+    "office": "US House of Representatives",
+    "district": "18",
+    "state": "NY"
+  },
+  {
+    "id": 160,
+    "name": "Josh Riley",
+    "level": "federal",
+    "chamber": "House",
+    "office": "US House of Representatives",
+    "district": "19",
+    "state": "NY"
+  },
+  {
+    "id": 161,
+    "name": "Paul Tonko",
+    "level": "federal",
+    "chamber": "House",
+    "office": "US House of Representatives",
+    "district": "20",
+    "state": "NY"
+  },
+  {
+    "id": 162,
+    "name": "Elise Stefanik",
+    "level": "federal",
+    "chamber": "House",
+    "office": "US House of Representatives",
+    "district": "21",
+    "state": "NY"
+  },
+  {
+    "id": 163,
+    "name": "John Mannion",
+    "level": "federal",
+    "chamber": "House",
+    "office": "US House of Representatives",
+    "district": "22",
+    "state": "NY"
+  },
+  {
+    "id": 164,
+    "name": "Nick Langworthy",
+    "level": "federal",
+    "chamber": "House",
+    "office": "US House of Representatives",
+    "district": "23",
+    "state": "NY"
+  },
+  {
+    "id": 165,
+    "name": "Claudia Tenney",
+    "level": "federal",
+    "chamber": "House",
+    "office": "US House of Representatives",
+    "district": "24",
+    "state": "NY"
+  },
+  {
+    "id": 166,
+    "name": "Joseph Morelle",
+    "level": "federal",
+    "chamber": "House",
+    "office": "US House of Representatives",
+    "district": "25",
+    "state": "NY"
+  },
+  {
+    "id": 167,
+    "name": "Tim Kennedy",
+    "level": "federal",
+    "chamber": "House",
+    "office": "US House of Representatives",
+    "district": "26",
+    "state": "NY"
+  }
+]

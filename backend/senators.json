@@ -1,0 +1,902 @@
+[
+  {
+    "id": 1,
+    "name": "Tommy Tuberville",
+    "level": "federal",
+    "chamber": "Senate",
+    "office": "US Senate",
+    "district": null,
+    "state": "AL"
+  },
+  {
+    "id": 2,
+    "name": "Katie Britt",
+    "level": "federal",
+    "chamber": "Senate",
+    "office": "US Senate",
+    "district": null,
+    "state": "AL"
+  },
+  {
+    "id": 3,
+    "name": "Lisa Murkowski",
+    "level": "federal",
+    "chamber": "Senate",
+    "office": "US Senate",
+    "district": null,
+    "state": "AK"
+  },
+  {
+    "id": 4,
+    "name": "Dan Sullivan",
+    "level": "federal",
+    "chamber": "Senate",
+    "office": "US Senate",
+    "district": null,
+    "state": "AK"
+  },
+  {
+    "id": 5,
+    "name": "Mark Kelly",
+    "level": "federal",
+    "chamber": "Senate",
+    "office": "US Senate",
+    "district": null,
+    "state": "AZ"
+  },
+  {
+    "id": 6,
+    "name": "Ruben Gallego",
+    "level": "federal",
+    "chamber": "Senate",
+    "office": "US Senate",
+    "district": null,
+    "state": "AZ"
+  },
+  {
+    "id": 7,
+    "name": "John Boozman",
+    "level": "federal",
+    "chamber": "Senate",
+    "office": "US Senate",
+    "district": null,
+    "state": "AR"
+  },
+  {
+    "id": 8,
+    "name": "Tom Cotton",
+    "level": "federal",
+    "chamber": "Senate",
+    "office": "US Senate",
+    "district": null,
+    "state": "AR"
+  },
+  {
+    "id": 9,
+    "name": "Alex Padilla",
+    "level": "federal",
+    "chamber": "Senate",
+    "office": "US Senate",
+    "district": null,
+    "state": "CA"
+  },
+  {
+    "id": 10,
+    "name": "Adam Schiff",
+    "level": "federal",
+    "chamber": "Senate",
+    "office": "US Senate",
+    "district": null,
+    "state": "CA"
+  },
+  {
+    "id": 11,
+    "name": "Michael Bennet",
+    "level": "federal",
+    "chamber": "Senate",
+    "office": "US Senate",
+    "district": null,
+    "state": "CO"
+  },
+  {
+    "id": 12,
+    "name": "John Hickenlooper",
+    "level": "federal",
+    "chamber": "Senate",
+    "office": "US Senate",
+    "district": null,
+    "state": "CO"
+  },
+  {
+    "id": 13,
+    "name": "Richard Blumenthal",
+    "level": "federal",
+    "chamber": "Senate",
+    "office": "US Senate",
+    "district": null,
+    "state": "CT"
+  },
+  {
+    "id": 14,
+    "name": "Chris Murphy",
+    "level": "federal",
+    "chamber": "Senate",
+    "office": "US Senate",
+    "district": null,
+    "state": "CT"
+  },
+  {
+    "id": 15,
+    "name": "Chris Coons",
+    "level": "federal",
+    "chamber": "Senate",
+    "office": "US Senate",
+    "district": null,
+    "state": "DE"
+  },
+  {
+    "id": 16,
+    "name": "Lisa Blunt Rochester",
+    "level": "federal",
+    "chamber": "Senate",
+    "office": "US Senate",
+    "district": null,
+    "state": "DE"
+  },
+  {
+    "id": 17,
+    "name": "Rick Scott",
+    "level": "federal",
+    "chamber": "Senate",
+    "office": "US Senate",
+    "district": null,
+    "state": "FL"
+  },
+  {
+    "id": 18,
+    "name": "Ashley Moody",
+    "level": "federal",
+    "chamber": "Senate",
+    "office": "US Senate",
+    "district": null,
+    "state": "FL"
+  },
+  {
+    "id": 19,
+    "name": "Jon Ossoff",
+    "level": "federal",
+    "chamber": "Senate",
+    "office": "US Senate",
+    "district": null,
+    "state": "GA"
+  },
+  {
+    "id": 20,
+    "name": "Raphael Warnock",
+    "level": "federal",
+    "chamber": "Senate",
+    "office": "US Senate",
+    "district": null,
+    "state": "GA"
+  },
+  {
+    "id": 21,
+    "name": "Brian Schatz",
+    "level": "federal",
+    "chamber": "Senate",
+    "office": "US Senate",
+    "district": null,
+    "state": "HI"
+  },
+  {
+    "id": 22,
+    "name": "Mazie Hirono",
+    "level": "federal",
+    "chamber": "Senate",
+    "office": "US Senate",
+    "district": null,
+    "state": "HI"
+  },
+  {
+    "id": 23,
+    "name": "Mike Crapo",
+    "level": "federal",
+    "chamber": "Senate",
+    "office": "US Senate",
+    "district": null,
+    "state": "ID"
+  },
+  {
+    "id": 24,
+    "name": "Jim Risch",
+    "level": "federal",
+    "chamber": "Senate",
+    "office": "US Senate",
+    "district": null,
+    "state": "ID"
+  },
+  {
+    "id": 25,
+    "name": "Dick Durbin",
+    "level": "federal",
+    "chamber": "Senate",
+    "office": "US Senate",
+    "district": null,
+    "state": "IL"
+  },
+  {
+    "id": 26,
+    "name": "Tammy Duckworth",
+    "level": "federal",
+    "chamber": "Senate",
+    "office": "US Senate",
+    "district": null,
+    "state": "IL"
+  },
+  {
+    "id": 27,
+    "name": "Todd Young",
+    "level": "federal",
+    "chamber": "Senate",
+    "office": "US Senate",
+    "district": null,
+    "state": "IN"
+  },
+  {
+    "id": 28,
+    "name": "Jim Banks",
+    "level": "federal",
+    "chamber": "Senate",
+    "office": "US Senate",
+    "district": null,
+    "state": "IN"
+  },
+  {
+    "id": 29,
+    "name": "Chuck Grassley",
+    "level": "federal",
+    "chamber": "Senate",
+    "office": "US Senate",
+    "district": null,
+    "state": "IA"
+  },
+  {
+    "id": 30,
+    "name": "Joni Ernst",
+    "level": "federal",
+    "chamber": "Senate",
+    "office": "US Senate",
+    "district": null,
+    "state": "IA"
+  },
+  {
+    "id": 31,
+    "name": "Jerry Moran",
+    "level": "federal",
+    "chamber": "Senate",
+    "office": "US Senate",
+    "district": null,
+    "state": "KS"
+  },
+  {
+    "id": 32,
+    "name": "Roger Marshall",
+    "level": "federal",
+    "chamber": "Senate",
+    "office": "US Senate",
+    "district": null,
+    "state": "KS"
+  },
+  {
+    "id": 33,
+    "name": "Mitch McConnell",
+    "level": "federal",
+    "chamber": "Senate",
+    "office": "US Senate",
+    "district": null,
+    "state": "KY"
+  },
+  {
+    "id": 34,
+    "name": "Rand Paul",
+    "level": "federal",
+    "chamber": "Senate",
+    "office": "US Senate",
+    "district": null,
+    "state": "KY"
+  },
+  {
+    "id": 35,
+    "name": "Bill Cassidy",
+    "level": "federal",
+    "chamber": "Senate",
+    "office": "US Senate",
+    "district": null,
+    "state": "LA"
+  },
+  {
+    "id": 36,
+    "name": "John Kennedy",
+    "level": "federal",
+    "chamber": "Senate",
+    "office": "US Senate",
+    "district": null,
+    "state": "LA"
+  },
+  {
+    "id": 37,
+    "name": "Susan Collins",
+    "level": "federal",
+    "chamber": "Senate",
+    "office": "US Senate",
+    "district": null,
+    "state": "ME"
+  },
+  {
+    "id": 38,
+    "name": "Angus King",
+    "level": "federal",
+    "chamber": "Senate",
+    "office": "US Senate",
+    "district": null,
+    "state": "ME"
+  },
+  {
+    "id": 39,
+    "name": "Chris Van Hollen",
+    "level": "federal",
+    "chamber": "Senate",
+    "office": "US Senate",
+    "district": null,
+    "state": "MD"
+  },
+  {
+    "id": 40,
+    "name": "Angela Alsobrooks",
+    "level": "federal",
+    "chamber": "Senate",
+    "office": "US Senate",
+    "district": null,
+    "state": "MD"
+  },
+  {
+    "id": 41,
+    "name": "Elizabeth Warren",
+    "level": "federal",
+    "chamber": "Senate",
+    "office": "US Senate",
+    "district": null,
+    "state": "MA"
+  },
+  {
+    "id": 42,
+    "name": "Ed Markey",
+    "level": "federal",
+    "chamber": "Senate",
+    "office": "US Senate",
+    "district": null,
+    "state": "MA"
+  },
+  {
+    "id": 43,
+    "name": "Gary Peters",
+    "level": "federal",
+    "chamber": "Senate",
+    "office": "US Senate",
+    "district": null,
+    "state": "MI"
+  },
+  {
+    "id": 44,
+    "name": "Elissa Slotkin",
+    "level": "federal",
+    "chamber": "Senate",
+    "office": "US Senate",
+    "district": null,
+    "state": "MI"
+  },
+  {
+    "id": 45,
+    "name": "Amy Klobuchar",
+    "level": "federal",
+    "chamber": "Senate",
+    "office": "US Senate",
+    "district": null,
+    "state": "MN"
+  },
+  {
+    "id": 46,
+    "name": "Tina Smith",
+    "level": "federal",
+    "chamber": "Senate",
+    "office": "US Senate",
+    "district": null,
+    "state": "MN"
+  },
+  {
+    "id": 47,
+    "name": "Roger Wicker",
+    "level": "federal",
+    "chamber": "Senate",
+    "office": "US Senate",
+    "district": null,
+    "state": "MS"
+  },
+  {
+    "id": 48,
+    "name": "Cindy Hyde-Smith",
+    "level": "federal",
+    "chamber": "Senate",
+    "office": "US Senate",
+    "district": null,
+    "state": "MS"
+  },
+  {
+    "id": 49,
+    "name": "Josh Hawley",
+    "level": "federal",
+    "chamber": "Senate",
+    "office": "US Senate",
+    "district": null,
+    "state": "MO"
+  },
+  {
+    "id": 50,
+    "name": "Eric Schmitt",
+    "level": "federal",
+    "chamber": "Senate",
+    "office": "US Senate",
+    "district": null,
+    "state": "MO"
+  },
+  {
+    "id": 51,
+    "name": "Steve Daines",
+    "level": "federal",
+    "chamber": "Senate",
+    "office": "US Senate",
+    "district": null,
+    "state": "MT"
+  },
+  {
+    "id": 52,
+    "name": "Tim Sheehy",
+    "level": "federal",
+    "chamber": "Senate",
+    "office": "US Senate",
+    "district": null,
+    "state": "MT"
+  },
+  {
+    "id": 53,
+    "name": "Deb Fischer",
+    "level": "federal",
+    "chamber": "Senate",
+    "office": "US Senate",
+    "district": null,
+    "state": "NE"
+  },
+  {
+    "id": 54,
+    "name": "Pete Ricketts",
+    "level": "federal",
+    "chamber": "Senate",
+    "office": "US Senate",
+    "district": null,
+    "state": "NE"
+  },
+  {
+    "id": 55,
+    "name": "Catherine Cortez Masto",
+    "level": "federal",
+    "chamber": "Senate",
+    "office": "US Senate",
+    "district": null,
+    "state": "NV"
+  },
+  {
+    "id": 56,
+    "name": "Jacky Rosen",
+    "level": "federal",
+    "chamber": "Senate",
+    "office": "US Senate",
+    "district": null,
+    "state": "NV"
+  },
+  {
+    "id": 57,
+    "name": "Jeanne Shaheen",
+    "level": "federal",
+    "chamber": "Senate",
+    "office": "US Senate",
+    "district": null,
+    "state": "NH"
+  },
+  {
+    "id": 58,
+    "name": "Maggie Hassan",
+    "level": "federal",
+    "chamber": "Senate",
+    "office": "US Senate",
+    "district": null,
+    "state": "NH"
+  },
+  {
+    "id": 59,
+    "name": "Cory Booker",
+    "level": "federal",
+    "chamber": "Senate",
+    "office": "US Senate",
+    "district": null,
+    "state": "NJ"
+  },
+  {
+    "id": 60,
+    "name": "Andy Kim",
+    "level": "federal",
+    "chamber": "Senate",
+    "office": "US Senate",
+    "district": null,
+    "state": "NJ"
+  },
+  {
+    "id": 61,
+    "name": "Martin Heinrich",
+    "level": "federal",
+    "chamber": "Senate",
+    "office": "US Senate",
+    "district": null,
+    "state": "NM"
+  },
+  {
+    "id": 62,
+    "name": "Ben Ray Lujan",
+    "level": "federal",
+    "chamber": "Senate",
+    "office": "US Senate",
+    "district": null,
+    "state": "NM"
+  },
+  {
+    "id": 63,
+    "name": "Chuck Schumer",
+    "level": "federal",
+    "chamber": "Senate",
+    "office": "US Senate",
+    "district": null,
+    "state": "NY"
+  },
+  {
+    "id": 64,
+    "name": "Kirsten Gillibrand",
+    "level": "federal",
+    "chamber": "Senate",
+    "office": "US Senate",
+    "district": null,
+    "state": "NY"
+  },
+  {
+    "id": 65,
+    "name": "Thom Tillis",
+    "level": "federal",
+    "chamber": "Senate",
+    "office": "US Senate",
+    "district": null,
+    "state": "NC"
+  },
+  {
+    "id": 66,
+    "name": "Ted Budd",
+    "level": "federal",
+    "chamber": "Senate",
+    "office": "US Senate",
+    "district": null,
+    "state": "NC"
+  },
+  {
+    "id": 67,
+    "name": "John Hoeven",
+    "level": "federal",
+    "chamber": "Senate",
+    "office": "US Senate",
+    "district": null,
+    "state": "ND"
+  },
+  {
+    "id": 68,
+    "name": "Kevin Cramer",
+    "level": "federal",
+    "chamber": "Senate",
+    "office": "US Senate",
+    "district": null,
+    "state": "ND"
+  },
+  {
+    "id": 69,
+    "name": "Bernie Moreno",
+    "level": "federal",
+    "chamber": "Senate",
+    "office": "US Senate",
+    "district": null,
+    "state": "OH"
+  },
+  {
+    "id": 70,
+    "name": "Jon Husted",
+    "level": "federal",
+    "chamber": "Senate",
+    "office": "US Senate",
+    "district": null,
+    "state": "OH"
+  },
+  {
+    "id": 71,
+    "name": "James Lankford",
+    "level": "federal",
+    "chamber": "Senate",
+    "office": "US Senate",
+    "district": null,
+    "state": "OK"
+  },
+  {
+    "id": 72,
+    "name": "Alan Armstrong",
+    "level": "federal",
+    "chamber": "Senate",
+    "office": "US Senate",
+    "district": null,
+    "state": "OK"
+  },
+  {
+    "id": 73,
+    "name": "Ron Wyden",
+    "level": "federal",
+    "chamber": "Senate",
+    "office": "US Senate",
+    "district": null,
+    "state": "OR"
+  },
+  {
+    "id": 74,
+    "name": "Jeff Merkley",
+    "level": "federal",
+    "chamber": "Senate",
+    "office": "US Senate",
+    "district": null,
+    "state": "OR"
+  },
+  {
+    "id": 75,
+    "name": "John Fetterman",
+    "level": "federal",
+    "chamber": "Senate",
+    "office": "US Senate",
+    "district": null,
+    "state": "PA"
+  },
+  {
+    "id": 76,
+    "name": "Dave McCormick",
+    "level": "federal",
+    "chamber": "Senate",
+    "office": "US Senate",
+    "district": null,
+    "state": "PA"
+  },
+  {
+    "id": 77,
+    "name": "Jack Reed",
+    "level": "federal",
+    "chamber": "Senate",
+    "office": "US Senate",
+    "district": null,
+    "state": "RI"
+  },
+  {
+    "id": 78,
+    "name": "Sheldon Whitehouse",
+    "level": "federal",
+    "chamber": "Senate",
+    "office": "US Senate",
+    "district": null,
+    "state": "RI"
+  },
+  {
+    "id": 79,
+    "name": "Lindsey Graham",
+    "level": "federal",
+    "chamber": "Senate",
+    "office": "US Senate",
+    "district": null,
+    "state": "SC"
+  },
+  {
+    "id": 80,
+    "name": "Tim Scott",
+    "level": "federal",
+    "chamber": "Senate",
+    "office": "US Senate",
+    "district": null,
+    "state": "SC"
+  },
+  {
+    "id": 81,
+    "name": "John Thune",
+    "level": "federal",
+    "chamber": "Senate",
+    "office": "US Senate",
+    "district": null,
+    "state": "SD"
+  },
+  {
+    "id": 82,
+    "name": "Mike Rounds",
+    "level": "federal",
+    "chamber": "Senate",
+    "office": "US Senate",
+    "district": null,
+    "state": "SD"
+  },
+  {
+    "id": 83,
+    "name": "Marsha Blackburn",
+    "level": "federal",
+    "chamber": "Senate",
+    "office": "US Senate",
+    "district": null,
+    "state": "TN"
+  },
+  {
+    "id": 84,
+    "name": "Bill Hagerty",
+    "level": "federal",
+    "chamber": "Senate",
+    "office": "US Senate",
+    "district": null,
+    "state": "TN"
+  },
+  {
+    "id": 85,
+    "name": "John Cornyn",
+    "level": "federal",
+    "chamber": "Senate",
+    "office": "US Senate",
+    "district": null,
+    "state": "TX"
+  },
+  {
+    "id": 86,
+    "name": "Ted Cruz",
+    "level": "federal",
+    "chamber": "Senate",
+    "office": "US Senate",
+    "district": null,
+    "state": "TX"
+  },
+  {
+    "id": 87,
+    "name": "Mike Lee",
+    "level": "federal",
+    "chamber": "Senate",
+    "office": "US Senate",
+    "district": null,
+    "state": "UT"
+  },
+  {
+    "id": 88,
+    "name": "John Curtis",
+    "level": "federal",
+    "chamber": "Senate",
+    "office": "US Senate",
+    "district": null,
+    "state": "UT"
+  },
+  {
+    "id": 89,
+    "name": "Bernie Sanders",
+    "level": "federal",
+    "chamber": "Senate",
+    "office": "US Senate",
+    "district": null,
+    "state": "VT"
+  },
+  {
+    "id": 90,
+    "name": "Peter Welch",
+    "level": "federal",
+    "chamber": "Senate",
+    "office": "US Senate",
+    "district": null,
+    "state": "VT"
+  },
+  {
+    "id": 91,
+    "name": "Mark Warner",
+    "level": "federal",
+    "chamber": "Senate",
+    "office": "US Senate",
+    "district": null,
+    "state": "VA"
+  },
+  {
+    "id": 92,
+    "name": "Tim Kaine",
+    "level": "federal",
+    "chamber": "Senate",
+    "office": "US Senate",
+    "district": null,
+    "state": "VA"
+  },
+  {
+    "id": 93,
+    "name": "Patty Murray",
+    "level": "federal",
+    "chamber": "Senate",
+    "office": "US Senate",
+    "district": null,
+    "state": "WA"
+  },
+  {
+    "id": 94,
+    "name": "Maria Cantwell",
+    "level": "federal",
+    "chamber": "Senate",
+    "office": "US Senate",
+    "district": null,
+    "state": "WA"
+  },
+  {
+    "id": 95,
+    "name": "Shelley Moore Capito",
+    "level": "federal",
+    "chamber": "Senate",
+    "office": "US Senate",
+    "district": null,
+    "state": "WV"
+  },
+  {
+    "id": 96,
+    "name": "Jim Justice",
+    "level": "federal",
+    "chamber": "Senate",
+    "office": "US Senate",
+    "district": null,
+    "state": "WV"
+  },
+  {
+    "id": 97,
+    "name": "Ron Johnson",
+    "level": "federal",
+    "chamber": "Senate",
+    "office": "US Senate",
+    "district": null,
+    "state": "WI"
+  },
+  {
+    "id": 98,
+    "name": "Tammy Baldwin",
+    "level": "federal",
+    "chamber": "Senate",
+    "office": "US Senate",
+    "district": null,
+    "state": "WI"
+  },
+  {
+    "id": 99,
+    "name": "John Barrasso",
+    "level": "federal",
+    "chamber": "Senate",
+    "office": "US Senate",
+    "district": null,
+    "state": "WY"
+  },
+  {
+    "id": 100,
+    "name": "Cynthia Lummis",
+    "level": "federal",
+    "chamber": "Senate",
+    "office": "US Senate",
+    "district": null,
+    "state": "WY"
+  }
+]
