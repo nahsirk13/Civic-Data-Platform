@@ -7,10 +7,14 @@ policy issues — separate from the SQLAlchemy model.
 
 from pydantic import BaseModel
 
-class Issue(BaseModel):
+
+class IssueOut(BaseModel):
     """
     Shape of an Issue as returned BY the API.
     """
     id: int
     name: str
     description: str
+
+    class Config:
+        from_attributes = True

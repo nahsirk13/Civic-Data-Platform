@@ -1,4 +1,4 @@
-from sqlalchemy import Column, Integer, String
+from sqlalchemy import Column, Integer, String, Date
 from database import Base
 
 
@@ -11,5 +11,9 @@ class User(Base):
 
     id = Column(Integer, primary_key=True)
     email = Column(String, unique=True, nullable=False)
+    first_name = Column(String)
+    last_name = Column(String)
+    dob = Column(Date, nullable=False)
     password_hash = Column(String, nullable=False)
-    zipcode = Column(String)
+    zipcode = Column(String, nullable=False)
+

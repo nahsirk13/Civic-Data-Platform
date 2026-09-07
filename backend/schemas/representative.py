@@ -7,12 +7,12 @@ table structure. This separation lets us control exactly what
 gets exposed via the API without being tied to internal DB columns.
 """
 
-
 from pydantic import BaseModel, field_validator
+
+valid_levels = {"city", "state", "federal"}
 
 
 class RepresentativeOut(BaseModel):
-
     id: int
     name: str
     level: str  # "city", "state", or "federal"
@@ -67,8 +67,7 @@ class RepresentativeCreate(BaseModel):
             if len(value) != 2 or not value.isalpha():
                 raise ValueError("state must be a 2-letter abbreviation (e.g. 'NY')")
             return value.upper()  # normalize to uppercase automatically
-        return value             # if null, just return the None that was passed in
-
+        return value  # if null, just return the None that was passed in
 
     @field_validator("level")
     @classmethod
@@ -76,7 +75,6 @@ class RepresentativeCreate(BaseModel):
         """
         Ensures 'level' either city, state, or federal.
         """
-        valid_levels = {"city", "state", "federal"}
         if value.lower() not in valid_levels:
             raise ValueError(f"level must be one of the following: {valid_levels}")
         return value.lower()
