@@ -3,7 +3,8 @@ from passlib.context import CryptContext
 import os
 from dotenv import load_dotenv
 from jose import jwt
-
+from fastapi import Depends, HTTPException
+from fastapi.security import OAuth2PasswordBearer
 
 load_dotenv()    # reads the .env file and loads its key-value pairs into memory
 
@@ -42,3 +43,21 @@ def decode_access_token(token: str) -> dict:
     Raises an error if the token is invalid or expired.
     """
     return jwt.decode(token, SECRET_KEY, algorithms=[ALGORITHM])
+
+
+oauth2_scheme = OAuth2PasswordBearer(tokenUrl="login")
+
+
+def get_current_user_id(token: str = Depends(oauth2_scheme)) -> int:
+    """
+    Extracts and verifies the user id from a request's JWT.
+    Used as a dependency on any route that requires authentication.
+    """
+    try:
+        payload = decode_access_token(token)
+        user_id = payload.get("sub")
+        if user_id is None:
+            raise HTTPException(status_code=401, detail="Invalid token")
+        return int(user_id)
+    except Exception:
+        raise HTTPException(status_code=401, detail="Invalid or expired token")

@@ -41,19 +41,6 @@ class RepresentativeCreate(BaseModel):
     district: str | None = None
     state: str | None = None
 
-    @field_validator("state")
-    @classmethod
-    def validate_state(cls, value):
-        """
-        Ensures 'state' is a valid 2-letter abbreviation (e.g. 'NY').
-        Runs automatically whenever a RepresentativeCreate object
-        is built, before the request even reaches the router logic.
-        """
-        if value is not None:
-            if len(value) != 2 or not value.isalpha():
-                raise ValueError("state must be a 2-letter abbreviation (e.g. 'NY')")
-            return value.upper()  # normalize to uppercase automatically
-        return value
 
     @field_validator("state")
     @classmethod

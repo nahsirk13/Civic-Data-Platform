@@ -14,7 +14,7 @@ A full-stack web application for exploring elected representatives — city, sta
 ## Tech Stack
 - **Backend:** FastAPI, Pydantic, SQLAlchemy, PostgreSQL
 - **Frontend:** React
-- **Auth:** JWT (JSON Web Tokens)
+- **Auth:** JWT (JSON Web Tokens) via python-jose, password hashing via Passlib (bcrypt)
 
 ## Roadmap
 - **AI-generated issue stances** — use an LLM to analyze a representative's voting/legislative history on a given issue and generate a stance score (left–right scale) plus a short summary, with sourcing
