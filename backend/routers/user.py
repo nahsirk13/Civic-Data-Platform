@@ -1,8 +1,5 @@
 """
 API routes for user signup and login.
-
-Signup creates a new user with a securely hashed password.
-Login verifies credentials and issues a JWT access token.
 """
 
 from fastapi import APIRouter, Depends, HTTPException
