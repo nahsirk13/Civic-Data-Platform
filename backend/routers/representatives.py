@@ -38,6 +38,24 @@ def get_representatives(state: str | None = None, db: Session = Depends(get_db))
     return query.all()
 
 
+@router.get("/representatives/lookup", response_model=list[RepresentativeOut])
+def lookup_representatives(
+    district: str | None = None,
+    state: str | None = None,
+    db: Session = Depends(get_db),
+):
+    """
+    Look up representatives by district and/or state.
+    Example: GET /representatives/lookup?district=30&state=NY
+    """
+    query = db.query(Representative)
+    if state:
+        query = query.filter(Representative.state == state.upper())
+    if district:
+        query = query.filter(Representative.district == district)
+    return query.all()
+
+
 @router.get("/representatives/{rep_id}", response_model=RepresentativeOut)
 def get_representative(rep_id: int, db: Session = Depends(get_db)):
     """
@@ -66,3 +84,4 @@ def create_representative(rep_data: RepresentativeOut, db: Session = Depends(get
     db.commit()
     db.refresh(new_rep)
     return new_rep
+
