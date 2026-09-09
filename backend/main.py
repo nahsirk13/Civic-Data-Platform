@@ -6,6 +6,7 @@ Wires together all routers.
 from fastapi import FastAPI
 from routers import representatives, issues, users
 from fastapi.middleware.cors import CORSMiddleware
+from routers import openstates
 
 
 app = FastAPI()
@@ -17,6 +18,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+app.include_router(openstates.router)
 app.include_router(representatives.router)
 app.include_router(issues.router)
 app.include_router(users.router)
